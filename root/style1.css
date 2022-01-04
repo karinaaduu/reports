@@ -1,0 +1,121 @@
+body{
+	
+}
+.result-table {
+	font-family: arial;
+	font-size: 25;
+	width: 100%;
+}
+
+.result-table td{
+	vertical-align: top;
+
+}
+
+.result-table a{
+	display: inline-block;
+	min-width: 500px;
+}
+.content{
+	background-color: rgb(221, 221, 221, 0.6);
+}
+h2{
+	text-align: center
+}
+a {
+	padding: 2px 20px ;
+	display: block;
+	color: black;
+	text-decoration: none;
+	background-color: rgb(221, 221, 221, 1);
+	margin-top:  2px ;
+	margin-right: 15px;
+	margin-left: 0px;
+	margin-bottom:  0px ;
+	border: 3px solid #1c6580;
+	border-radius: 15px;
+}
+
+a:hover {
+	color: black;
+	/*display: block;*/
+	background-color: white;
+}
+a:active {
+  color: #5B9880; 
+  border-bottom: 1px solid;
+}
+th {
+	font-size: 40;
+	background-color: rgb(221, 221, 221, 1);
+}
+
+.ddmenu-content {
+	display: none;
+	position: absolute;
+}
+
+.ddmenu-content a{
+	background-color: lightgray;
+	color: black;
+	display: block;
+	line-height: 1.5;
+}
+.ddmenu-content a:hover{
+	color: #5B9880;
+	display: block;
+	line-height: 1.5;
+}
+
+.ddmenu:hover .ddmenu-content {
+	display: block;
+	position: relative;
+
+}
+
+.ddmenu:hover {
+	margin-bottom: 1px;
+
+}
+
+.left-menu{
+	line-height: 3;
+}
+
+.block{
+	background-image: url(background_water.jpg);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+/*background: linear-gradient(to bottom, #BDE3F2 0%,#80D6B4 50%,#5B9880 100%);*/
+}
+
+.labs-link{
+	display: block;
+	border: 3px solid #1c6580;
+	border-radius: 15px;
+}
+
+.right-ref {
+	display: none;
+	position: absolute;
+}
+.right-ref a:hover{
+	background-color: #D9BBB4;
+	color: #F2727D;
+	display: block;
+	line-height: 1;
+}
+.right-ref a{
+	background-color: #D9BBB4;
+	color: black;
+	display: block;
+	line-height: 1;
+}
+.pics {
+	border: 5px solid #1c6580;
+	border-radius: 25px;
+}
+.content-menu{
+	margin: 1em auto 2em;
+}
